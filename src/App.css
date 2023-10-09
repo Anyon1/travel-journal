@@ -1,0 +1,91 @@
+#root {
+  margin: 0;
+}
+body {
+  margin: 0;
+  justify-content: center;
+}
+nav {
+  background: #F55A5A;
+  align-items: center;
+  display: flex;
+  color: #FFF;
+  font-family: Inter,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.085px;
+  justify-content: center;
+  margin-bottom: 45px;
+  height: 55px;
+  width: 550px;
+}
+.content{
+  width: 550px;
+  height: 704px;
+}
+.outer-box {
+  width: 470px;
+  height: 168px;
+  margin: 40px 0 20px 20px;
+}
+.card--img {
+  border-radius: 5px;
+  width: 125px;
+  height: 168px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.title {
+  color: #2B283A;
+  font-family: Inter,sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 7px;
+  margin-bottom: 14px;
+}
+h4 {
+  color: #2B283A;
+  font-family: Inter,sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.description {
+  color: #2B283A;
+  font-family: Inter,sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 15.36px */
+}
+.location {
+  color: #2B283A;
+  font-family: Inter,sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  margin-right: 1px;
+}
+.google-link {
+  color: #918E9B;
+  font-family: Inter,sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 12px;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  padding-right: 4px;
+}
